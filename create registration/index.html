@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <h1>Register</h1>
+        <div class="section-group">
+          <label for="Fname">First Name</label>
+          <input
+            type="text"
+            id="userfname"
+            name="userfname"
+            placeholder="First Name"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="section-group">
+          <label for="Lname">Last Name</label>
+          <input
+            type="text"
+            id="userlname"
+            name="userlname"
+            placeholder="Last Name"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="section-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email" />
+          <div class="error"></div>
+        </div>
+        <div class="section-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="section-group">
+          <label for="conpassword">Confirm Password</label>
+          <input
+            type="password"
+            id="cpassword"
+            name="cpassword"
+            placeholder="Confirm Password"
+          />
+          <div class="error"></div>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
